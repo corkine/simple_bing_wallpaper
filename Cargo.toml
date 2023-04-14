@@ -1,0 +1,10 @@
+[package]
+name = "bing_wallpaper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wallpaper = { version = "3", features = ["from_url"] }
+chrono = "0.4.24"
