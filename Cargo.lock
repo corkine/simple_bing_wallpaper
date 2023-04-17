@@ -46,6 +46,8 @@ name = "bing_wallpaper"
 version = "0.1.0"
 dependencies = [
  "chrono",
+ "reqwest",
+ "serde_json",
  "wallpaper",
 ]
 
